@@ -2,7 +2,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export function Hero() {
   return (
-    <main className="h-full w-full flex flex-row px-20 py-10 justify-between items-center">
+    <main className=" h-full w-full flex flex-row px-20 py-10 justify-between items-center">
       <div className="flex flex-col gap-4 ">
         <h1 className="text-6xl font-bold">
           Olá, meu nome é Guilherme Cardoso

@@ -4,7 +4,7 @@ import rocket from "../assets/rocket.png";
 
 export function Education() {
   return (
-    <div className="w-full flex flex-col gap-10 py-10 mt-5 bg-[#EAF2FD] px-20" id='education'>
+    <div className="w-full flex flex-col gap-10 py-10 mt-5 bg-[#EAF2FD] px-20" id='/education'>
       <h3 className="text-3xl font-bold flex mt-7  justify-center">
         Formação acadêmica
       </h3>

@@ -7,7 +7,7 @@ export function Projects() {
   const projectsRight = projects.slice(0, stopPosition);
 
   return (
-    <div className="w-full flex flex-col gap-10 mt-5 mb-10 px-20" id='experience'>
+    <div className="w-full flex flex-col gap-10 mt-5 mb-10 px-20">
       <h3 className="text-3xl font-bold flex mt-7  justify-center">
         Experiência profissional
       </h3>
@@ -22,7 +22,7 @@ export function Projects() {
                 <img
                   src={project.img}
                   alt=""
-                  className="lg:min-w-[751px] lg:h-[406px] rounded-md sm:min-w-[460px] sm:h-[300px]"
+                  className="lg:min-w-[751px] lg:h-[346px] rounded-md sm:min-w-[460px] sm:h-[300px]"
                 />
                 <div className="flex flex-col">
                   <span className="text-lg font-bold">{project.title}</span>

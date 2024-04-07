@@ -11,7 +11,7 @@ import { Skills } from "./components/skills";
 //flex flex-col max-w-[1416px] mx-auto   overflow-hidden
 export function App() {
   return (
-    <div className='w-full'>
+    <div className='w-[1136px]'>
       <Navbar/>
       <Hero />
       <AboutMe/>

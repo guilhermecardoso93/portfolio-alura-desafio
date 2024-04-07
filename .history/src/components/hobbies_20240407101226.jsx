@@ -7,7 +7,7 @@ import Music from "../assets/musicicon.svg";
 
 export function Hobbies() {
   return (
-    <div className="flex flex-col gap-10 mt-20 w-full px-20" id='hobbies'>
+    <div className="flex flex-col gap-10 mt-20 w-full px-20" id='/hobbies'>
       <h3 className="text-3xl font-bold flex justify-center">Hobbies</h3>
       <div>
         <ul className="flex flex-row gap-3 flex-wrap justify-around">

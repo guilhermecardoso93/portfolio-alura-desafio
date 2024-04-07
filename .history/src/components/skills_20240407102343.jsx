@@ -6,7 +6,7 @@ import JsIcon from "../assets/jsicon.svg";
 
 export function Skills() {
   return (
-    <div className="flex flex-col gap-10 mt-5 w-full px-20" id="skills">
+    <div className="flex flex-col gap-10 mt-5 w-full px-20" id='skills' >
       <h3 className="text-3xl font-bold flex justify-center">Skills</h3>
       <div>
         <ul className="flex flex-row flex-wrap gap-3 justify-around">

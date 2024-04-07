@@ -6,11 +6,12 @@ export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: "#aboutme", label: "Sobre mim" },
-    { href: "#skills", label: "Skills" },
-    { href: "#hobbies", label: "Hobbies" },
-    { href: "#education", label: "Formação" },
-    { href: "#experience", label: "Projetos" },
+    { href: "/", label: "Home" },
+    { href: "/aboutme", label: "Sobre mim" },
+    { href: "/skills", label: "Skills" },
+    { href: "/hobbies", label: "Hobbies" },
+    { href: "/education", label: "Formação" },
+    { href: "/experience", label: "Projetos" },
   ];
 
   return (
@@ -33,7 +34,7 @@ export function Navbar() {
               </li>
             ))}
             <li className="font-bold">
-              <a href="#contact">guilherme_cardosogui@hotmail.com</a>
+              <a href="/contact">guilherme_cardosogui@hotmail.com</a>
             </li>
           </ul>
 
@@ -77,7 +78,7 @@ export function Navbar() {
                 </li>
               ))}
               <li className="font-bold">
-                <a href="#contact">guilherme_cardosogui@hotmail.com</a>
+                <a href="/">guilherme_cardosogui@hotmail.com</a>
               </li>
             </ul>
           </nav>

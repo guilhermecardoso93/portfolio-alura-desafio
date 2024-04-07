@@ -29,24 +29,20 @@ export function Contact() {
   };
 
   return (
-    <div className="flex justify-center mb-4" id="contact">
+    <div className="flex justify-center mb-4">
       <div className="flex flex-row justify-center sm:mx-50 lg:mx-44">
         <Toaster position="top-center" reverseOrder={false} />
         <div>
           <img src={ImgContact} className="lg:flex sm:hidden" />
         </div>
         <div className="flex-1 gap-10 px-4 flex-col justify-between">
-          <h2 className="text-3xl font-bold flex justify-start">Contato</h2>
+          <h2 class="text-3xl font-bold flex justify-start">Contato</h2>
           <p>Quer entrar em contato comigo?</p>
           <p>
             Preencha o formulário ao lado e entrarei em contato o mais rápido
             possível.{" "}
           </p>
-          <form
-            ref={form}
-            onSubmit={sendEmail}
-            className="flex flex-col gap-6 mt-6"
-          >
+          <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-6 mt-6">
             <input
               type="text"
               name="user_name"
